@@ -1,0 +1,72 @@
+AuthViewModelTest
+a. Ketika login berhasil
+    - Memastikan data tidak null.
+    - Memastikan mengembalikan Response.Success.
+    - Memastikan data sesuai dengan yang diharapkan.
+
+b. Ketika login gagal
+    - Memastikan data tidak null.
+    - Memastikan mengembalikan Response.Error.
+    - Memastikan data sesuai dengan yang diharapkan.
+
+c. Ketika register berhasil
+    - Memastikan data tidak null.
+    - Memastikan mengembalikan Response.Success.
+    - Memastikan data sesuai dengan yang diharapkan.
+
+d. Ketika register gagal
+    - Memastikan data tidak null.
+    - Memastikan mengembalikan Response.Error.
+    - Memastikan data sesuai dengan yang diharapkan.
+
+
+MainViewModelTest
+a. Ketika berhasil memuat data
+    - Memastikan data tidak null.
+    - Memastikan ukuran data sesuai dengan yang diharapkan.
+    - Memastikan data sesuai dengan yang diharapkan.
+
+
+MapsViewModelTest
+a. Ketika berhasil memuat data
+    - Memastikan data tidak null.
+    - Memastikan mengembalikan Response.Success.
+    - Memastikan ukuran data sesuai dengan yang diharapkan.
+
+b. Ketika memuat data kosong
+    - Memastikan data tidak null.
+    - Memastikan mengembalikan Response.Empty.
+
+c. Ketika gagal memuat data
+    - Memastikan data tidak null.
+    - Memastikan mengembalikan Response.Error.
+    - Memastikan data sesuai dengan yang diharapkan.
+
+
+DetailViewModelTest
+a. Ketika berhasil memuat data
+    - Memastikan data tidak null.
+    - Memastikan mengembalikan Response.Success.
+    - Memastikan data sesuai dengan yang diharapkan.
+
+b. Ketika memuat data kosong
+    - Memastikan data tidak null.
+    - Memastikan mengembalikan Response.Empty.
+
+c. Ketika gagal memuat data
+    - Memastikan data tidak null.
+    - Memastikan mengembalikan Response.Error.
+    - Memastikan data sesuai dengan yang diharapkan.
+
+
+AddNewStoryViewModelTest
+a. Ketika berhasil memuat data
+    - Memastikan data tidak null.
+    - Memastikan mengembalikan Response.Success.
+    - Memastikan data sesuai dengan yang diharapkan.
+
+c. Ketika gagal memuat data
+    - Memastikan data tidak null.
+    - Memastikan mengembalikan Response.Error.
+    - Memastikan data sesuai dengan yang diharapkan.
+

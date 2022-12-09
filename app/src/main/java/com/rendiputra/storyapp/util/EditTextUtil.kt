@@ -37,5 +37,5 @@ fun TextInputEditText.isEmailFormatValid(): Boolean {
 }
 
 fun TextInputEditText.isLengthPasswordGreaterThan6(): Boolean {
-    return text.toString().length <= 6
+    return text.toString().length >= 6
 }

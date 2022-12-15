@@ -7,7 +7,7 @@ a. Ketika login berhasil
 b. Ketika login gagal
     - Memastikan data tidak null.
     - Memastikan mengembalikan Response.Error.
-    - Memastikan data sesuai dengan yang diharapkan.
+    - Memastikan pesan error sesuai dengan yang diharapkan.
 
 c. Ketika register berhasil
     - Memastikan data tidak null.
@@ -17,15 +17,19 @@ c. Ketika register berhasil
 d. Ketika register gagal
     - Memastikan data tidak null.
     - Memastikan mengembalikan Response.Error.
-    - Memastikan data sesuai dengan yang diharapkan.
+    - Memastikan pesan error sesuai dengan yang diharapkan.
 
-
-MainViewModelTest
-a. Ketika berhasil memuat data
+e. Ketika mendapatkan auth token berhasil
     - Memastikan data tidak null.
-    - Memastikan ukuran data sesuai dengan yang diharapkan.
     - Memastikan data sesuai dengan yang diharapkan.
 
+f. Ketika menghapus auth token berhasil
+    - Memanggil method removeAuthToken pada viewmodel
+    - Memastikan method removeAuthToken pada AuthPreferences terpanggil
+
+g. Ketika mengupdate auth token berhasil
+    - Memanggil method updateAuthToken pada viewmodel
+    - Memastikan method updateAuthToken pada AuthPreferences terpanggil
 
 MapsViewModelTest
 a. Ketika berhasil memuat data
@@ -65,8 +69,13 @@ a. Ketika berhasil memuat data
     - Memastikan mengembalikan Response.Success.
     - Memastikan data sesuai dengan yang diharapkan.
 
-c. Ketika gagal memuat data
+b. Ketika gagal memuat data
     - Memastikan data tidak null.
     - Memastikan mengembalikan Response.Error.
     - Memastikan data sesuai dengan yang diharapkan.
 
+HomeViewModelTest
+a. Ketika berhasil memuat data
+    - Memastikan data tidak null.
+    - Memastikan ukuran data telah sesuai dengan yang diharapkan.
+    - Memastikan data sesuai dengan yang diharapkan.
